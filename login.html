@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwakarma University Web App</title>
+    <link rel="stylesheet" href="index.css"> 
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url(gb.jpg );
+
+        }
+        .form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0, 0, 0, 0.289);
+	padding:10px;
+    overflow: hidden;
+}
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+        main {
+            margin-top: 20px;
+        }
+        img {
+            height: 200px;
+        }
+        h1{
+            color: red;
+        }
+        h3{
+            color: red;
+        }
+        .loginbtn{
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+          }
+        
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <img src="gblogo.jpg" alt="logo">
+        
+    </header>
+
+
+    <div class="form-box">
+    <main>
+
+       
+        <form action="login.php" method="post">
+            <div class="container">
+              <h1><center>LOG IN</center></h1>
+             
+              
+          
+              <label for="email"><b><h3>Email</h3></b></label>
+                    
+              <input type="text" placeholder="Enter Email" name="email" id="email" required>
+          
+              <label for="password"><b><h3>Password<h3></b></label>
+              <input type="password" placeholder="Enter Password" name="password" id="password" required>
+          
+              <button type="submit" class="loginbtn">log in</button>
+            </div>
+        </div>
+              
+          </form>
+
+    </main>
+</body> 
+</html>
